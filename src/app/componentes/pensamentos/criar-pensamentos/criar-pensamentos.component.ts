@@ -12,4 +12,11 @@ export class CriarPensamentosComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  pensamento = {
+    id: '1',
+    conteudo: 'Aprendendo Angular',
+    autoria: 'Dev',
+    modelo: ''
+  }
+
 }
